@@ -1,0 +1,20 @@
+.square {
+  background-color: #dfd;
+  width: 300px;
+  height: 300px;
+  margin: 5px auto;
+}
+
+.code {
+  border: solid 1px #aaa;
+  padding: 5px;
+  margin: 5px;
+  background-color: #353535;
+} 
+
+.buttons{
+  width: 345px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+}
