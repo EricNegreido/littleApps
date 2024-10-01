@@ -8,7 +8,8 @@ export default function HomePage(){
       <main className='appsBar'>
         <Link className='itemApps' to='/about'>  Sobre Nosotros  </Link>
         <Link className='itemApps' to='/convertBin'> Binario a decimal </Link>
-        <Link className='itemApps' to='/borderRadius'> Generado de Border Radius</Link>
+        <Link className='itemApps' to='/borderRadius'> Border Radius </Link>
+        <Link className='itemApps' to='/calculator'> Calculadora</Link>
       </main>
     </>
   )
