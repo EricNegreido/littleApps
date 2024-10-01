@@ -25,7 +25,7 @@ function borderRadius(corner, value) {
 
   setBorder((prevState) => ({
     ...prevState,
-    [corner]: Math.max(0, prevState[corner] + value) // Asegúrate de que no baje de 0
+    [corner]: Math.max(0, prevState[corner] + value)
   }))
   return
 }
