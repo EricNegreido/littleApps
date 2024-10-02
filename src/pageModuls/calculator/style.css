@@ -1,7 +1,6 @@
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
-  margin: 0; 
 }
 
 input[type=number] { -moz-appearance:textfield; }
@@ -9,21 +8,55 @@ input[type=number] { -moz-appearance:textfield; }
 .screen{
   background-color: rgba(20, 20, 20);
   color: #1a1;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+
 }
 
-.board{
+.numKeypad{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px
+  width: 80%;
 
+
+}
+.opKeypad{
+  width: 20%;
+}
+.board{
+  display: flex;
+  width: 100%;
 }
 
 .numbers{
   background-color: #375a3f;
-  height: 30px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.operators{
+.numbers:hover{
+  background-color: #657068;
+}
+
+.operators, .footOperators{
   background-color: #2f312f;
   height: 30px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
 }
+
+.operators:hover, .footOperators:hover{
+  background-color: #657068;
+}
+
+.footerOperators{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+/*TODO: buscar como hacerlo bien con grid */
