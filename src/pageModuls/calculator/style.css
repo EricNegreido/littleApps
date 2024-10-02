@@ -1,0 +1,29 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.screen{
+  background-color: rgba(20, 20, 20);
+  color: #1a1;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px
+
+}
+
+.numbers{
+  background-color: #375a3f;
+  height: 30px;
+}
+
+.operators{
+  background-color: #2f312f;
+  height: 30px;
+}
