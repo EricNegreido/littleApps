@@ -1,10 +1,10 @@
 import './App.css'
-import HomePage from './pages/Home'
-import AboutPage from './pages/About'
+import HomePage from './pageModuls/Home.jsx'
+import AboutPage from './pageModuls/About.jsx'
 import { Router } from './Router.jsx'
-import { ConvertBin } from './pages/ConvertBin.jsx'
-import { BorderRadius } from './pages/BorderRadius.jsx'
-import { Calculator } from './pages/Calculator.jsx'
+import { ConvertBin } from './pageModuls/convertBin/ConvertBin.jsx'
+import { BorderRadius } from './pageModuls/borderRadius/BorderRadius.jsx'
+import { Calculator } from './pageModuls/calculator/Calculator.jsx'
 
 const routes = [
   {

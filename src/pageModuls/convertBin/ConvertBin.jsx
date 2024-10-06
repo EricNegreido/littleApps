@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import '../App.css'
-import { Link } from '../Link'
+import '../../App.css'
+import { Link } from '../../Link'
 
 function binToDec( bin ){
   return parseInt(bin, 2)

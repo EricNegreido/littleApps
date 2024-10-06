@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import '../App.css'
-import '../pageModuls/borderRadius/style.css'
-import { Link } from '../Link';
+import '../../App.css'
+import './style.css'
+import { Link } from '../../Link';
 
 export function BorderRadius() {
 const [bord, setBorder] = useState({
@@ -12,7 +12,7 @@ const [bord, setBorder] = useState({
 });
 
 function copyStyle(value){
-  navigator.clipboard.writeText( "border-radius: " + value)
+  navigator.clipboard.writeText( "border-radius: " + value + ";")
   .then(() => {
     console.log('Texto copiado al portapapeles')
   })
