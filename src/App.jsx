@@ -5,6 +5,7 @@ import { Router } from './Router.jsx'
 import { ConvertBin } from './pageModuls/convertBin/ConvertBin.jsx'
 import { BorderRadius } from './pageModuls/borderRadius/BorderRadius.jsx'
 import { Calculator } from './pageModuls/calculator/Calculator.jsx'
+import { ChristmasLights} from './pageModuls/christmas Lights/christmasLights.jsx'
 
 const routes = [
   {
@@ -26,6 +27,10 @@ const routes = [
   {
     path:'/calculator',
     Component: Calculator
+  },
+  {
+    path:'/christmasLights',
+    Component: ChristmasLights
   }
 ]
 
