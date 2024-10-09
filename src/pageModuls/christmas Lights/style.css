@@ -7,6 +7,31 @@
 .light{
   width: 30px;
   height: 30px;
-  background-color: aliceblue;
   border-radius: 50%;
+  background-color: rgba(255, 255, 0, 0.10);
+}
+.animationLights{
+  animation: 2s infinite alternate lights;
+
+}
+.secondAnimationLights{
+  animation: 2s infinite alternate lights 1s;
+
+}
+.switch{
+  border: 1px solid #fff;
+  font-size: 12px;
+  padding: 3px;
+}
+
+
+@keyframes lights {
+  to{
+    background-color: rgba(255, 255, 0, 0.10);
+  }
+
+  from{
+    background-color: yellow;
+    box-shadow: 0px 0px 10px yellow;
+  }
 }
