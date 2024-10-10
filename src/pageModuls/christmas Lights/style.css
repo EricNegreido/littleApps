@@ -9,15 +9,16 @@
   height: 30px;
   border-radius: 50%;
   background-color: rgba(255, 255, 0, 0.10);
+  animation: infinite alternate;
 }
-.animationLights{
+/* .animationLights{
   animation: 2s infinite alternate lights;
 
-}
-.secondAnimationLights{
+} */
+/* .secondAnimationLights{
   animation: 2s infinite alternate lights 1s;
 
-}
+} */
 .switch{
   border: 1px solid #fff;
   font-size: 12px;
@@ -25,13 +26,57 @@
 }
 
 
-@keyframes lights {
+@keyframes yellowLights {
   to{
     background-color: rgba(255, 255, 0, 0.10);
   }
 
   from{
-    background-color: yellow;
-    box-shadow: 0px 0px 10px yellow;
+    background-color: rgb(255,255,0);
+    box-shadow: 0px 0px 10px #FF0;
+  }
+}
+
+@keyframes redLights {
+  to{
+    background-color: rgba(255, 0, 0, 0.10);
+  }
+
+  from{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px #F00;
+  }
+}
+
+@keyframes greenLights {
+  to{
+    background-color: rgba(0, 255, 0, 0.10);
+  }
+
+  from{
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0px 0px 10px #0F0;
+  }
+}
+
+@keyframes blueLights {
+  to{
+    background-color: rgba(0, 0, 255, 0.10);
+  }
+
+  from{
+    background-color: rgb(0, 0, 255);
+    box-shadow: 0px 0px 10px #00F;
+  }
+}
+
+@keyframes violetLights {
+  to{
+    background-color: rgba(255, 0, 255, 0.10);
+  }
+
+  from{
+    background-color: rgb(128, 0, 128);
+    box-shadow: 0px 0px 10px #800080;
   }
 }
