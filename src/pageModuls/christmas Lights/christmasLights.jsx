@@ -50,7 +50,9 @@ export function ChristmasLights() {
       lights.push(<Light key={index} toggle={toggle} speed={speed} delay={delay} />);
     } else if (index % 4 == 1){
       lights.push(<Light key={index} toggle={toggle} speed={speed} initialColor={'blueLights'}/>);
-    } else if (index % 4 == 2{
+    } else if (index % 4 == 2){
+      lights.push(<Light key={index} toggle={toggle} speed={speed} initialColor={'greenLights'} delay={delay}/>);
+    }else{
       lights.push(<Light key={index} toggle={toggle} speed={speed} initialColor={'yellowLights'}/>);
 
     }
@@ -61,13 +63,13 @@ export function ChristmasLights() {
       <button className='switch' onClick={handleCLick}> On/off </button>
       <div className='controllRange'>
         <label htmlFor="speed"> Velocidad:</label>
-        <input onChange={handleChange} name="speed" className='interval' type="range" min={0.1} max={10} step={0.1} value={speed} />
+        <input onChange={handleChange} name="speed" className='interval' type="range" min={0} max={10} step={0.1} value={speed} />
         <p>{speed}</p>
       </div>
       <div className='controllRange'>
 
         <label htmlFor="delay"> Delay: </label>
-        <input onChange={handleChange} name="delay" className='interval' type="range" min={0.1} max={3} step={0.1} value={delay} />
+        <input onChange={handleChange} name="delay" className='interval' type="range" min={0} max={4} step={0.2} value={delay} />
         <p>{delay}</p>
       </div>
       <div className='controllRange'>

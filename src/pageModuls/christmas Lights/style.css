@@ -1,6 +1,6 @@
 .stringLights{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   
 }
@@ -26,6 +26,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  border: none;
   background-color: rgba(255, 255, 0, 0.10);
   animation: infinite alternate;
 }
@@ -51,7 +52,7 @@
 
   from{
     background-color: rgb(255,255,0);
-    box-shadow: 0px 0px 10px #FF0;
+    box-shadow: 0px 0px 30px #FF0;
   }
 }
 
@@ -62,7 +63,7 @@
 
   from{
     background-color: rgb(255, 0, 0);
-    box-shadow: 0px 0px 10px #F00;
+    box-shadow: 0px 0px 30px #F00;
   }
 }
 
@@ -73,7 +74,7 @@
 
   from{
     background-color: rgb(0, 255, 0);
-    box-shadow: 0px 0px 10px #0F0;
+    box-shadow: 0px 0px 30px #0F0;
   }
 }
 
@@ -84,7 +85,7 @@
 
   from{
     background-color: rgb(0, 0, 255);
-    box-shadow: 0px 0px 10px #00F;
+    box-shadow: 0px 0px 30px #00F;
   }
 }
 
@@ -95,6 +96,6 @@
 
   from{
     background-color: rgb(128, 0, 128);
-    box-shadow: 0px 0px 10px #800080;
+    box-shadow: 0px 0px 30px #800080;
   }
 }
