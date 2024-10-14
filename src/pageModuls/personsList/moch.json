@@ -1,0 +1,184 @@
+{
+  "people": [
+    {
+      "name": "John Doe",
+      "street": "123 Elm St",
+      "city": "Springfield",
+      "state": "IL",
+      "country": "USA",
+      "telephone": "555-1234",
+      "birthday": "1985-05-12"
+    },
+    {
+      "name": "Jane Smith",
+      "street": "456 Oak Ave",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "telephone": "555-5678",
+      "birthday": "1990-03-22"
+    },
+    {
+      "name": "Luis Gomez",
+      "street": "789 Pine Rd",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "telephone": "555-7890",
+      "birthday": "1982-07-19"
+    },
+    {
+      "name": "Maria Torres",
+      "street": "101 Maple Dr",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "telephone": "555-2345",
+      "birthday": "1995-11-02"
+    },
+    {
+      "name": "Chen Wei",
+      "street": "22 Birch Ln",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "telephone": "555-3456",
+      "birthday": "1978-12-15"
+    },
+    {
+      "name": "Aisha Khan",
+      "street": "88 Cedar St",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "telephone": "555-4567",
+      "birthday": "1989-01-08"
+    },
+    {
+      "name": "Carlos Rivera",
+      "street": "99 Aspen Rd",
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "telephone": "555-6789",
+      "birthday": "1980-09-25"
+    },
+    {
+      "name": "Emma Johansson",
+      "street": "77 Fir St",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "telephone": "555-9876",
+      "birthday": "1993-05-14"
+    },
+    {
+      "name": "Oliver Brown",
+      "street": "66 Redwood Ave",
+      "city": "Portland",
+      "state": "OR",
+      "country": "USA",
+      "telephone": "555-6543",
+      "birthday": "1998-08-31"
+    },
+    {
+      "name": "Sofia Rossi",
+      "street": "55 Walnut Rd",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "telephone": "555-3210",
+      "birthday": "1987-06-05"
+    },
+    {
+      "name": "Liam Walker",
+      "street": "44 Chestnut Dr",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "telephone": "555-1239",
+      "birthday": "1984-04-18"
+    },
+    {
+      "name": "Isabella Murphy",
+      "street": "33 Sycamore St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "USA",
+      "telephone": "555-5671",
+      "birthday": "1991-02-07"
+    },
+    {
+      "name": "Gabriel Hernandez",
+      "street": "22 Elmwood Rd",
+      "city": "Houston",
+      "state": "TX",
+      "country": "USA",
+      "telephone": "555-6782",
+      "birthday": "1986-03-27"
+    },
+    {
+      "name": "Sophia Martinez",
+      "street": "11 Alder Ln",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "telephone": "555-7895",
+      "birthday": "1994-12-09"
+    },
+    {
+      "name": "Henry Wilson",
+      "street": "99 Juniper Ave",
+      "city": "Orlando",
+      "state": "FL",
+      "country": "USA",
+      "telephone": "555-9873",
+      "birthday": "1979-07-13"
+    },
+    {
+      "name": "Emily Davis",
+      "street": "88 Poplar St",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "telephone": "555-6546",
+      "birthday": "1992-10-21"
+    },
+    {
+      "name": "James Moore",
+      "street": "77 Spruce Rd",
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA",
+      "telephone": "555-4321",
+      "birthday": "1981-11-04"
+    },
+    {
+      "name": "Ava Thompson",
+      "street": "66 Beech Ln",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "USA",
+      "telephone": "555-3459",
+      "birthday": "1997-09-30"
+    },
+    {
+      "name": "Mason Lee",
+      "street": "55 Willow Rd",
+      "city": "Nashville",
+      "state": "TN",
+      "country": "USA",
+      "telephone": "555-2348",
+      "birthday": "1988-08-16"
+    },
+    {
+      "name": "Mia Robinson",
+      "street": "44 Laurel Dr",
+      "city": "Las Vegas",
+      "state": "NV",
+      "country": "USA",
+      "telephone": "555-5674",
+      "birthday": "1996-06-25"
+    }
+  ]
+}
