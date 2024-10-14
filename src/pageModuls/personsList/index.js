@@ -1,3 +1,6 @@
+const closeModal = document.getElementsByClassName('closeModalButton')[0];
+closeModal.addEventListener('click', (event) => {closeDetails(event)})
+
 
 
 function getPersonList(){
@@ -9,8 +12,10 @@ function getPersonList(){
       const elem = document.getElementsByClassName('personList')[0]
       data.people.forEach(person => {
         const row = document.createElement('div');
+        row.tabIndex = "0";
         row.className='rowList';
         row.addEventListener('click', () => {modalDetails(person)})
+        row.addEventListener('focus', () => {modalDetails(person)})
         const namePerson = document.createElement('p');
         namePerson.className='namePerson';
       namePerson.textContent=`${person.name}`;
@@ -22,6 +27,12 @@ function getPersonList(){
   } catch (error) {
     return error
   }
+}
+
+function closeDetails(event){
+  event.preventDefault()
+  const modal = document.getElementsByClassName('modalDetails')[0];
+  modal.style.display = 'none';
 }
 function modalDetails(person){
   const modal = document.getElementsByClassName('modalDetails')[0];

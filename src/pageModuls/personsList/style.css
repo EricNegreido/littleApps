@@ -16,7 +16,8 @@
 }
 
 .rowList:focus{
-  background-color: #aaa;
+  background-color: #cfc204;
+  border: 1px solid #ffffff;
 }
 .namePerson{
   margin: 0;
