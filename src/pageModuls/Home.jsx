@@ -11,6 +11,8 @@ export default function HomePage(){
         <Link className='itemApps' to='/borderRadius'> Border Radius </Link>
         <Link className='itemApps' to='/calculator'> Calculadora</Link>
         <Link className='itemApps' to='/christmasLights'> Christmas Lights</Link>
+        <Link className='itemApps' to='/personsList'> Lista de Personas </Link>
+        <Link className='itemApps' to='/colorCycles'> Ciclo de colores</Link>
       </main>
     </>
   )

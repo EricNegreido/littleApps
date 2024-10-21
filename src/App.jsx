@@ -5,7 +5,7 @@ import { Router } from './Router.jsx'
 import { ConvertBin } from './pageModuls/convertBin/ConvertBin.jsx'
 import { BorderRadius } from './pageModuls/borderRadius/BorderRadius.jsx'
 import { Calculator } from './pageModuls/calculator/Calculator.jsx'
-import { ChristmasLights} from './pageModuls/christmas Lights/christmasLights.jsx'
+import { ChristmasLights } from './pageModuls/christmas Lights/christmasLights.jsx'
 
 const routes = [
   {
@@ -17,21 +17,36 @@ const routes = [
     Component: AboutPage
   },
   {
-    path:'/convertBin',
+    path: '/convertBin',
     Component: ConvertBin
   },
   {
-    path:'/borderRadius',
+    path: '/borderRadius',
     Component: BorderRadius
   },
   {
-    path:'/calculator',
+    path: '/calculator',
     Component: Calculator
   },
   {
-    path:'/christmasLights',
+    path: '/christmasLights',
     Component: ChristmasLights
-  }
+  },
+  {
+    path: '/colorCycles',
+    Component: () => {
+      window.location.href = '/colorCycles/colorcycles.html';
+      return null;
+    }
+  },
+  {
+    path: '/personsList',
+    Component: () => {
+      window.location.href = '/personsList/personslist.html';
+      return null;
+    }
+  },
+ 
 ]
 
 function App() {
