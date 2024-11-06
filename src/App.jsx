@@ -35,14 +35,14 @@ const routes = [
   {
     path: '/colorCycles',
     Component: () => {
-      window.location.href = '/colorCycles/colorcycles.html';
+      window.location.href = '/pageModuls/colorCycles/colorcycles.html';
       return null;
     }
   },
   {
     path: '/personsList',
     Component: () => {
-      window.location.href = '/personsList/personslist.html';
+      window.location.href = '/pageModuls/personsList/personslist.html';
       return null;
     }
   },
