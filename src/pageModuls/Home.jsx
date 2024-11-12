@@ -13,6 +13,7 @@ export default function HomePage(){
         <Link className='itemApps' to='/christmasLights'> Christmas Lights</Link>
         <Link className='itemApps' to='/personsList'> Lista de Personas </Link>
         <Link className='itemApps' to='/colorCycles'> Ciclo de colores</Link>
+        <Link className='itemApps' to='/countDown'> Temporizador </Link>
       </main>
     </>
   )

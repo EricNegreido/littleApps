@@ -44,7 +44,13 @@ const routes = [
     Component: () => {
       window.location.href = '/pageModuls/personsList/personslist.html';
       return null;
+    },
+    path: '/countDown',
+    Component: () => {
+      window.location.href = '/pageModuls/countDown/countDown.html';
+      return null;
     }
+
   },
  
 ]
