@@ -1,0 +1,56 @@
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #323988;
+  color: #ddd;
+}
+.rowList {
+  box-sizing: border-box;
+  background-color: #ddd;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.rowList:hover{
+  background-color: #aaa;
+}
+
+.rowList:focus{
+  background-color: #cfc204;
+  border: 1px solid #ffffff;
+}
+.namePerson{
+  margin: 0;
+  padding: 5px;
+  color: #000;
+
+}
+.personList{
+  width: 50%;
+  margin: auto;
+}
+
+.modalDetails{
+  border: 1px solid #fff;
+  background-color: #aaa;
+  height: 80%;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+  box-sizing: border-box;
+
+}
+#modalForm {
+  box-sizing: border-box;
+  color: #fff;
+  padding: 5px;
+}
+
+#modalForm input, label{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0px;
+}

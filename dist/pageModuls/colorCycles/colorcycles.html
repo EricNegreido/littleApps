@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>colorCycles</title>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Ciclos de colores</h1>
+  <button id="toggle"> On/off </button>
+
+  <main class="mainBox">
+    <article>
+      <div class="box" id="redBox"></div>
+      <label for="greenBox"> Color rojo Inicial:</label>
+      <input type="text" name="redBox">
+      <label for="greenIncresement"> Incremento: </label>
+      <input type="number" name="redIncresement" max="255" min="0">
+      <span class="errorRebBox"></span>
+    </article>
+    <article>
+      <div class="box" id="greenBox"></div>
+      <label for="greenBox"> Color verde Inicial</label>
+      <input type="text" name="greenBox">
+      <label for="greenIncresement"> Incremento </label>
+      <input type="number" name="greenIncresement" max="255" min="0">
+    </article>
+    <article>
+      <div class="box" id="blueBox"></div>
+      <label for="greenBox"> Color azul Inicial</label>
+      <input type="text" name="blueBox">
+      <label for="blueIncresement"> Incremento </label>
+      <input type="number" name="blueIncresement" max="255" min="0">
+    </article>
+  </main>
+  <a href="/"> Inicio </a>
+  <script src="script.js"></script>
+</body>
+
+</html>

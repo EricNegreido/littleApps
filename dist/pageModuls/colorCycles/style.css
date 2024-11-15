@@ -1,0 +1,24 @@
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #323988;
+}
+.mainBox{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #555;
+
+}
+.box{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
